@@ -1,4 +1,5 @@
 const express = require('express');
+const db = require('../database/index');
 let app = express();
 let bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({
